@@ -86,7 +86,7 @@ a{
 .text-description{
     display: flex;
     align-items: center;
-    column-gap: 10rem;
+    column-gap: 4rem;
 }
 .text-description > .description {
     font-size:1.5rem;
