@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color : #ffffff;
+    --black : #000000;
+    --dark-green: #4caf50;
+    --light-green: #c5f8c7;
+}
+.card{
+    width: 2896px;
+    height: inherit;
+    background-color: var(--bg-color);
+}
+
+.heading{
+    color: rebeccapurple;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* align-items: center;
+    flex-direction: row; */
+    /* gap: 60rem; */
+    /* height: 100vh; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+} */
+.text-container h1{
+    color: var(--dark-green);
+}
+/* .circle-image{
+    position: absolute;
+}
+.dottedline-image{
+    position:relative;
+    right: 0;
+    top: 0;
+} */
+.button{
+    padding: 1rem 2rem;
+    background-color: var(--dark-green);
+    font-weight: 600;
+    color: var(--bg-color);
+    box-shadow: 5px 5px 5px 4px var(--light-green);
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+}
+.text-button{
+    margin-top: 2rem;
+    
+}
+.text-container{
+    margin-top: 20rem;
+    padding: 0 6rem;
+}
+.text-rating{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.star-container{
+    margin-bottom: 2rem;
+}
+.text-name > .name {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.text-name > .profession {
+    font-weight: 500;
+    font-size: 1.52rem;
+    margin-bottom: 1rem;
+}
+.text-description{
+    display: flex;
+    align-items: center;
+    column-gap: 10rem;
+}
+.text-description > .description {
+    font-size:1.5rem;
+    margin-bottom: 4rem;
+}
